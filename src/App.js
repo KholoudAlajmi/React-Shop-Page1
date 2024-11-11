@@ -29,19 +29,7 @@ function App() {
  },
 ];
 
-
-const productsList = products.map((product, index) => {
-  return( <div key = {index}>
-    <div class="product-container">
-    <img class="product-image" src={product.image} ></img>
-    <p class="product-info">{product.name}</p>
-    <p class="product-info">{product.price}</p>
-    </div>
- </div>)
-
-})
-
-  return (
+return (
     <div className = "App" >
     
 <div className ="text-container">
@@ -56,7 +44,31 @@ const productsList = products.map((product, index) => {
 
 <div class="row">
 
-{productsList}
+<div class="product-container">
+<img class="product-image" src={products[0].image} ></img>
+<p class="product-info">{products[0].name}</p>
+<p class="product-info">{products[0].price}</p>
+</div>
+
+<div class="product-container">
+<img class="product-image" src={products[1].image} ></img>
+<p class="product-info">{products[1].name}</p>
+<p class="product-info">{products[1].price}</p>
+</div>
+
+
+<div class="product-container">
+<img class="product-image" src={products[2].image} ></img>
+<p class="product-info">{products[2].name}</p>
+<p class="product-info">{products[2].price}</p>
+</div>
+
+
+<div class="product-container">
+<img class="product-image" src={products[3].image} ></img>
+<p class="product-info">{products[3].name}</p>
+<p class="product-info">{products[3].price}</p>
+</div>
 
 </div>     
 </div> 
