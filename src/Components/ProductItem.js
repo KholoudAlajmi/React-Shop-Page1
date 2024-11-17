@@ -7,7 +7,7 @@ const ProductItem = () => {
     <div className="text-container">
     <img className="product-image" src={firstProduct}></img>
     <p className="product-info">my component product</p>
-    <p className="product-info">2 kd</p>
+    <p className="product-info">2kd</p>
     </div>
   )
 }
