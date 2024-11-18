@@ -61,23 +61,28 @@
 
 
 .product-container{
-  border-width: 1px;
-  border-color: white;
+  border-width: 5px;
+ 
+  border-color: #5e0c0c;
   border-style: solid;
-  width: 150px;
   border-radius: 10px;
   padding: 5px;
-  margin: 50px;
+  margin: 5px;
+  text-align: center; 
+  width: 130px;
+  height: 330px;
 }
 
-.producr-info {
+.product-info {
   text-align: center;
-  color: white; 
+  color: #5e0c0c; 
   font-size: small; 
 }
 
 .product-image {
-  width: 130px;
+  width: 100px;
   height: 200px;
   border-radius: 1px;
+  padding: 5px;
+  margin: 5px;
 }
